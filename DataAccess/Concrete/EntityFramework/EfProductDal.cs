@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework {
     public class EfProductDal : IProductDal {
-		//
+		
         public void Add(Product product) {
             throw new NotImplementedException();
         }
