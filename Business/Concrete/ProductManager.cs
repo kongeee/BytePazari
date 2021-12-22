@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-//deneme yorumu-ekici-görkem-son-civan
+//deneme yorumu-ekici-görkem-son-civan-zort
 namespace Business.Concrete {
     public class ProductManager : IProductService {
 
