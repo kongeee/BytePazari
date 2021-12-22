@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\Desktop\\BytePazari\\Business\\Business.csproj": {
+    "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\BytePazari\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Business\\obj\\",
+        "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\furka\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj"
+              "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj"
               }
             }
           }
@@ -61,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furka\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
-        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\BytePazari\\ConsoleUI\\obj\\",
+        "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,17 +89,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\furka\\Desktop\\BytePazari\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Business\\Business.csproj"
+              "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj"
               },
-              "C:\\Users\\furka\\Desktop\\BytePazari\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Core\\Core.csproj"
+              "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj"
               },
-              "C:\\Users\\furka\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj"
+              "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj"
               }
             }
           }
@@ -128,21 +128,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furka\\Desktop\\BytePazari\\Core\\Core.csproj": {
+    "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\BytePazari\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -182,21 +182,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furka\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\BytePazari\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,8 +210,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj"
+              "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj"
               }
             }
           }
@@ -240,21 +240,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
+    "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\BytePazari\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -294,7 +294,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

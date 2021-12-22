@@ -5,6 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+
+//deneme yorumu
 namespace Business.Concrete {
     public class ProductManager : IProductService {
 

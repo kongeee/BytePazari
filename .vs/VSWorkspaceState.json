@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "\\Business",
+    "\\ConsoleUI",
+    "\\Core",
+    "\\DataAccess",
+    "\\Entities",
+    "\\WebAPI"
+  ],
+  "PreviewInSolutionExplorer": false
+}
