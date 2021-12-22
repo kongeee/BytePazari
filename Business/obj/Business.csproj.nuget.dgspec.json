@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\obj\\",
+=======
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +42,19 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj"
               },
               "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj"
+=======
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -65,6 +87,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
     "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -73,6 +96,16 @@
         "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\obj\\",
+=======
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +122,13 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj"
+=======
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -123,6 +161,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
     "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -131,6 +170,16 @@
         "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\obj\\",
+=======
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",

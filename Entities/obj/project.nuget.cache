@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "o1Nmmku8vr9qZT1rsSjcLhcvCfi3inR15TKa+pK5PW/0i5X4ukcXexh2wvW08HZqo8Wz0LlkKfCqVKKWo4X+Tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj",
+=======
+  "dgSpecHash": "WJbAS9UReXiebNrTBAwhf2RGQ3o3W7fYm6EaqdltNcL9aCHBwDIzs8bWiW6Bqt5DJsAFJsTY4aaQaVznMz/C5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

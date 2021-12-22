@@ -87,11 +87,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
       "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
+      "projectName": "ConsoleUI",
+      "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
+      "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\ConsoleUI\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,6 +116,7 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+<<<<<<< Updated upstream
             "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj": {
               "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj"
             },
@@ -119,6 +128,19 @@
             },
             "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj"
+=======
+            "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj"
+            },
+            "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj"
+            },
+            "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj"
+            },
+            "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj"
+>>>>>>> Stashed changes
             }
           }
         }

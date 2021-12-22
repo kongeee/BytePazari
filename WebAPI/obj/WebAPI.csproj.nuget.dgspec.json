@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\WebAPI\\obj\\",
+=======
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\WebAPI\\WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\WebAPI\\WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\WebAPI\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",

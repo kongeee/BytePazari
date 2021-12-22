@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "GnAQXdT9i2wmTYuG/0BBvoaGA4+4nfVSpaDGDsgZwm65p1Q9cW3x97AZz7FwHPvCxm4/b6z1A1sdAREqp9/qzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj",
+=======
+  "dgSpecHash": "iwahiG/8UwyjdG+PPah2nyqD7yMtUS/xVkqfbzJh8D3G7J7ofdyNe7babkg+2XYPZRy3VMK1I/lf8EWxrMYtRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

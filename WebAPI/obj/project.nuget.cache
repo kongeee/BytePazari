@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "sUPkLIbBEPaftEmoreQj6C0RGzjKOicCDXpeSR57CPAA6cgu4kqL3PgEzPPQ75Q5b8XTMBTZIUemzYhkbHQHew==",
   "success": true,
   "projectFilePath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\WebAPI\\WebAPI.csproj",
+=======
+  "dgSpecHash": "555yqzpODSxh0j05I7eGqeT6ReiUYjyjqQkTOxzlA8/NsPYvghVFloiGq/AkrEEP2km1CkZgDVfMbp1InLDu2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\WebAPI\\WebAPI.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

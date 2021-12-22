@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "R30XEh7MLKYiuJKa39DWm+W3Y29WvTJOwpoM2Xwwk5oeppkfX0crbwmKTU58d96NdY+reeOHGWMuPHKzfgVo+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
+=======
+  "dgSpecHash": "N1TGGy7P0XVEUM+i8PuJm/1YaZKpUZc1OYZFVrFiYOrcWP9RCI16wGdxBGrGrnKJUzoku3sdjlGFl+hmE5duyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\ConsoleUI\\ConsoleUI.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

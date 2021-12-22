@@ -13,11 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj",
       "projectName": "Entities",
       "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
+      "projectName": "Entities",
+      "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
