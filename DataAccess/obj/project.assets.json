@@ -32,19 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
       "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj",
-      "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\obj\\",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,13 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-<<<<<<< Updated upstream
             "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj"
-=======
-            "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj"
->>>>>>> Stashed changes
             }
           }
         }
@@ -99,5 +86,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\DataAccess\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

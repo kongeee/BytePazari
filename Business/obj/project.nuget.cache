@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
   "dgSpecHash": "usSmPb0dbPhFqdF82UKoK7tnvJp6zLdcLRXB8JKeN2l6jhHsEg1VgYmcT6IPmWRX4mqk3gxBmrnYd1uq77yHhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\Business.csproj",
-=======
-  "dgSpecHash": "C93Y3vewk0XCdQiaXPLsfwe8W8DukICkd638UjhVv0i6XG7dYUDly+sRmARgOoyHG3ATwDRP68YmqA/r2kqTqA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj",
->>>>>>> Stashed changes
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Business\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

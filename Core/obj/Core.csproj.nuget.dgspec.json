@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
     "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\obj\\",
-=======
-    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\obj\\",
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",

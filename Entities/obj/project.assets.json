@@ -13,19 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj",
       "projectName": "Entities",
       "projectPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Görkem Etem Irmak\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
-      "projectName": "Entities",
-      "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
-      "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\obj\\",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Görkem Etem Irmak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,5 +63,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Entities\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
