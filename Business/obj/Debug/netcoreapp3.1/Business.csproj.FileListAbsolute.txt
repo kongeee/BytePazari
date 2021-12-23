@@ -26,3 +26,17 @@ C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Business\obj\Debug\netcoreapp3.1\
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.dll
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.pdb

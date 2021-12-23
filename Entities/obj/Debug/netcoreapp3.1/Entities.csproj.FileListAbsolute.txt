@@ -16,3 +16,12 @@ C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Entities\obj\Debug\netcoreapp3.1\
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

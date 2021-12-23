@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GnAQXdT9i2wmTYuG/0BBvoaGA4+4nfVSpaDGDsgZwm65p1Q9cW3x97AZz7FwHPvCxm4/b6z1A1sdAREqp9/qzw==",
+  "dgSpecHash": "iwahiG/8UwyjdG+PPah2nyqD7yMtUS/xVkqfbzJh8D3G7J7ofdyNe7babkg+2XYPZRy3VMK1I/lf8EWxrMYtRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Görkem Etem Irmak\\Desktop\\BytePazari\\Core\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

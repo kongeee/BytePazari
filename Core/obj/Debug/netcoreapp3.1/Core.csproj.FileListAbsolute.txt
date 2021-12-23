@@ -16,3 +16,12 @@ C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Core\obj\Debug\netcoreapp3.1\Core
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\Görkem Etem Irmak\Desktop\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Core\obj\Debug\netcoreapp3.1\Core.pdb

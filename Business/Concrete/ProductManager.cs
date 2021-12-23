@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-//deneme yorumu-ekici-görkem-son-civan-zort-falan
+
 namespace Business.Concrete {
     public class ProductManager : IProductService {
 
@@ -19,6 +19,14 @@ namespace Business.Concrete {
         public List<Product> GetAll() {
             return _productDal.GetAll();
 
+        }
+
+        public List<Product> GetAllByBrandId(int brandId) {
+            return _productDal.GetAll(p => p.BrandId == brandId);
+        }
+
+        public List<Product> GetAllByPrice(int min, int max) {
+            return _productDal.GetAll(p => p.Price >= min && p.Price <= max);
         }
     }
 }
