@@ -1,1 +1,2 @@
 DataAccess -> Microsoft.EntityFrameworkCore.SqlServer v3.1.11
+Core -> Microsoft.EntityFrameworkCore.SqlServer v3.1.11

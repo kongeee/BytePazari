@@ -1,5 +1,7 @@
-﻿using DataAccess.Abstract;
+﻿using Core.DataAccess.EntityFramework;
+using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,44 +10,38 @@ using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework {
-    public class EfProductDal : IProductDal {
-        public void Add(Product entity) {
-            using (BytePazariContext context = new BytePazariContext()) {
-                var addedEntity = context.Entry(entity);
-                addedEntity.State = EntityState.Added;
-                context.SaveChanges();
+    public class EfProductDal : EfEntityRepositoryBase<Product, BytePazariContext>, IProductDal {
+        public List<ProductDetailDto> GetProductDetails(int productId) {
+            using(BytePazariContext context = new BytePazariContext()) {
+                var result = from p in context.Products
+                             join b in context.Brands on p.BrandId equals b.BrandId
+                             join c in context.Cpu on p.CpuId equals c.CpuId
+                             join g in context.Gpu on p.GpuId equals g.GpuId
+                             join r in context.Ram on p.RamId equals r.RamId
+                             join s in context.Storage on p.StorageId equals s.StorageId
+                             where p.ProductId == productId
+                             select new ProductDetailDto {
+                                 ProductId = p.ProductId,
+                                 ProductName = p.Name,
+                                 Price = p.Price,
+                                 Monitor = p.Monitor,
+                                 Rating = p.Rating,
+                                 Stock = p.Stock,
+                                 BrandName = b.Name,
+                                 CpuName = c.Name,
+                                 GpuName = g.Name,
+                                 RamName = r.Name,
+                                 SsdCapacity = s.SsdCapacity,
+                                 HddCapacity = s.HddCapacity,
+
+                             };
+                return result.ToList();
             }
+
         }
 
-        public void Delete(Product entity) {
-            using (BytePazariContext context = new BytePazariContext()) {
-                var deletedEntity = context.Entry(entity);
-                deletedEntity.State = EntityState.Deleted;
-                context.SaveChanges();
-            }
-        }
 
-        public Product Get(Expression<Func<Product, bool>> filter) {
-            using (BytePazariContext context = new BytePazariContext()) {
-                return context.Set<Product>().SingleOrDefault(filter);
-            }
-        }
 
-        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null) {
-            using (BytePazariContext context = new BytePazariContext()) {
 
-                return filter == null 
-                    ? context.Set<Product>().ToList() 
-                    : context.Set<Product>().Where(filter).ToList();
-            }
-        }
-
-        public void Update(Product entity) {
-            using (BytePazariContext context = new BytePazariContext()) {
-                var updatedEntity = context.Entry(entity);
-                updatedEntity.State = EntityState.Modified;
-                context.SaveChanges();
-            }
-        }
     }
 }

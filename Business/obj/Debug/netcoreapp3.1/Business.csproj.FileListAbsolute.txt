@@ -40,3 +40,5 @@ C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Busi
 C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
 C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.dll
 C:\Users\furka\Desktop\GitRepos\BytePazari\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\Business\bin\Debug\netcoreapp3.1\Core.pdb
