@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -13,12 +15,12 @@ namespace Business.Concrete {
             _storageDal = storageDal;
         }
 
-        public Storage Get(int storageId) {
-            return _storageDal.Get(s => s.StorageId == storageId);
+        public IDataResult<Storage> Get(int storageId) {
+            return new SuccessDataResult<Storage>(_storageDal.Get(a => a.StorageId == storageId), Messages.Smsg);
         }
 
-        public List<Storage> GetAll() {
-            return _storageDal.GetAll();
+        public IDataResult<List<Storage>> GetAll() {
+            return new SuccessDataResult<List<Storage>>(_storageDal.GetAll(), Messages.Smsg);
         }
     }
 }

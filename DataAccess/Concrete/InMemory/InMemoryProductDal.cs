@@ -65,6 +65,10 @@ namespace DataAccess.Concrete.InMemory {
             throw new NotImplementedException();
         }
 
+        public List<ProductDetailDto> GetProductDetailsById(int productId) {
+            throw new NotImplementedException();
+        }
+
         public void Update(Product product) {
             Product productToUpdate = _products.SingleOrDefault(p => p.ProductId == product.ProductId);
             productToUpdate.Name = product.Name;

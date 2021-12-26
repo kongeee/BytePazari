@@ -15,18 +15,18 @@ namespace ConsoleUI {
 
         private static void BrandTest() {
             BrandManager brandManager = new BrandManager(new EfBrandDal());
-            foreach (var brand in brandManager.GetAll()) {
+            foreach (var brand in brandManager.GetAll().Data) {
                 Console.WriteLine(brand.Name);
             }
 
-            var getBrandById = brandManager.Get(1);
+            var getBrandById = brandManager.Get(1).Data;
             Console.WriteLine(getBrandById.Name);
         }
 
         private static void ProductTest() {
             ProductManager productManager = new ProductManager(new EfProductDal());
-            foreach (var product in productManager.GetProductDetails(2)) {
-                Console.WriteLine(product.BrandName);
+            foreach (var product in productManager.GetProductDetails().Data) {
+                Console.WriteLine(product.BrandName + product.Price);
             }
         }
     }

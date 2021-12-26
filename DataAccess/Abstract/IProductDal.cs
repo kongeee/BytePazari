@@ -8,7 +8,8 @@ using System.Text;
 namespace DataAccess.Abstract {
     public interface IProductDal:IEntityRepository<Product> {
 
-        List<ProductDetailDto> GetProductDetails(int productId);
+        List<ProductDetailDto> GetProductDetailsById(int productId);
+        List<ProductDetailDto> GetProductDetails();
 
     }
 }

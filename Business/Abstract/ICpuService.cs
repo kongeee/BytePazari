@@ -1,11 +1,12 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Business.Abstract {
     public interface ICpuService {
-        List<Cpu> GetAll();
-        Cpu Get(int cpuId);
+        IDataResult<List<Cpu>> GetAll();
+        IDataResult<Cpu> Get(int cpuId);
     }
 }

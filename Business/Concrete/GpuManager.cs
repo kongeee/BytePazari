@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -13,12 +15,12 @@ namespace Business.Concrete {
             _gpuDal = gpuDal;
         }
 
-        public Gpu Get(int gpuId) {
-            return _gpuDal.Get(g => g.GpuId == gpuId);
+        public IDataResult<Gpu> Get(int gpuId) {
+            return new SuccessDataResult<Gpu>(_gpuDal.Get(a => a.GpuId == gpuId), Messages.Smsg);
         }
 
-        public List<Gpu> GetAll() {
-            return _gpuDal.GetAll();
+        public IDataResult<List<Gpu>> GetAll() {
+            return new SuccessDataResult<List<Gpu>>(_gpuDal.GetAll(), Messages.Smsg);
         }
     }
 }

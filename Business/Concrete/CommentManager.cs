@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -13,12 +15,25 @@ namespace Business.Concrete {
             _commentDal = commentDal;
         }
 
-        public Comment Get(int commentId) {
-            return _commentDal.Get(c => c.CommentId== commentId);
+        public IDataResult<Comment> Get(int commentId) {
+            return new SuccessDataResult<Comment>(_commentDal.Get(a => a.CommentId == commentId), Messages.Smsg);
         }
 
-        public List<Comment> GetAll() {
-            return _commentDal.GetAll();
+        public IDataResult<List<Comment>> GetAll() {
+            return new SuccessDataResult<List<Comment>>(_commentDal.GetAll(), Messages.Smsg);
+        }
+
+        public IResult Add(Comment comment) {
+            _commentDal.Add(comment);
+            return new SuccessResult(Messages.Smsg);
+        }
+        public IResult Update(Comment comment) {
+            _commentDal.Update(comment);
+            return new SuccessResult(Messages.Smsg);
+        }
+        public IResult Delete(Comment comment) {
+            _commentDal.Delete(comment);
+            return new SuccessResult(Messages.Smsg);
         }
     }
 }

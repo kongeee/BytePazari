@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -13,12 +15,12 @@ namespace Business.Concrete {
             _ramDal = ramDal;
         }
 
-        public Ram Get(int ramId) {
-            return _ramDal.Get(r => r.RamId == ramId);
+        public IDataResult<Ram> Get(int ramId) {
+            return new SuccessDataResult<Ram>(_ramDal.Get(a => a.RamId == ramId), Messages.Smsg);
         }
 
-        public List<Ram> GetAll() {
-            return _ramDal.GetAll();
+        public IDataResult<List<Ram>> GetAll() {
+            return new SuccessDataResult<List<Ram>>(_ramDal.GetAll(), Messages.Smsg);
         }
     }
 }

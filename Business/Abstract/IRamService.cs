@@ -1,11 +1,12 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Business.Abstract {
     public interface IRamService {
-        List<Ram> GetAll();
-        Ram Get(int ramId);
+        IDataResult<List<Ram>> GetAll();
+        IDataResult<Ram> Get(int ramId);
     }
 }

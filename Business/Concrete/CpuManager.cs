@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -13,12 +15,12 @@ namespace Business.Concrete {
             _cpuDal = cpuDal;
         }
 
-        public Cpu Get(int cpuId) {
-            return _cpuDal.Get(c => c.CpuId == cpuId);
+        public IDataResult<Cpu> Get(int cpuId) {
+            return new SuccessDataResult<Cpu>(_cpuDal.Get(a => a.CpuId == cpuId), Messages.Smsg);
         }
 
-        public List<Cpu> GetAll() {
-            return _cpuDal.GetAll();
+        public IDataResult<List<Cpu>> GetAll() {
+            return new SuccessDataResult<List<Cpu>>(_cpuDal.GetAll(), Messages.Smsg);
         }
     }
 }

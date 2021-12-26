@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -14,12 +16,32 @@ namespace Business.Concrete {
             _addressDal = addressDal;
         }
 
-        public Address Get(int addressId) {
-            return _addressDal.Get(a => a.AddressId == addressId);
+        public IResult Add(Address address) {
+            
+            if(address.AddressInfo.Length < 0) {
+                return new ErrorResult(Messages.Emsg_21);
+            }
+
+            _addressDal.Add(address);
+            return new SuccessResult(Messages.Smsg);
         }
 
-        public List<Address> GetAll() {
-            return _addressDal.GetAll();
+        public IResult Delete(Address addreess) {
+            _addressDal.Delete(addreess);
+            return new SuccessResult(Messages.Smsg);
+        }
+
+        public IDataResult<Address> Get(int addressId) {
+            return new SuccessDataResult<Address> (_addressDal.Get(a => a.AddressId == addressId), Messages.Smsg);
+        }
+
+        public IDataResult<List<Address>> GetAll() {
+            return new SuccessDataResult<List<Address>> (_addressDal.GetAll(), Messages.Smsg);
+        }
+
+        public IResult Update(Address address) {
+            _addressDal.Update(address);
+            return new SuccessResult(Messages.Smsg);
         }
     }
 }

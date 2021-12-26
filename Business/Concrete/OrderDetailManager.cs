@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -13,12 +15,24 @@ namespace Business.Concrete {
             _orderDetailDal = orderDetailDal;
         }
 
-        public OrderDetail Get(int orderDetailId) {
-            return _orderDetailDal.Get(od => od.DetailId == orderDetailId);
+        public IDataResult<OrderDetail> Get(int orderDetailId) {
+            return new SuccessDataResult<OrderDetail>(_orderDetailDal.Get(a => a.DetailId == orderDetailId), Messages.Smsg);
         }
 
-        public List<OrderDetail> GetAll() {
-            return _orderDetailDal.GetAll();
+        public IDataResult<List<OrderDetail>> GetAll() {
+            return new SuccessDataResult<List<OrderDetail>>(_orderDetailDal.GetAll(), Messages.Smsg);
+        }
+        public IResult Add(OrderDetail orderDetail) {
+            _orderDetailDal.Add(orderDetail);
+            return new SuccessResult(Messages.Smsg);
+        }
+        public IResult Update(OrderDetail orderDetail) {
+            _orderDetailDal.Update(orderDetail);
+            return new SuccessResult(Messages.Smsg);
+        }
+        public IResult Delete(OrderDetail orderDetail) {
+            _orderDetailDal.Delete(orderDetail);
+            return new SuccessResult(Messages.Smsg);
         }
     }
 }
