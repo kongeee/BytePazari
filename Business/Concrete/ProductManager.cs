@@ -24,6 +24,9 @@ namespace Business.Concrete {
         }
 
         public IDataResult<List<Product>> GetAll() {
+
+            
+
             return new SuccessDataResult<List<Product>> (_productDal.GetAll(), Messages.Smsg);
 
         }

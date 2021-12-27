@@ -4,6 +4,252 @@
     "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj"
+              },
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +273,20 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Business\\Business.csproj"
+              },
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Core\\Core.csproj"
+              },
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
