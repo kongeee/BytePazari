@@ -8,3 +8,4 @@ Core -> FluentValidation v10.3.6
 Core -> Autofac v6.3.0
 Core -> Autofac.Extras.DynamicProxy v6.0.0
 Core -> Autofac.Extensions.DependencyInjection v7.2.0
+Core -> Microsoft.AspNetCore.Http.Features v5.0.13

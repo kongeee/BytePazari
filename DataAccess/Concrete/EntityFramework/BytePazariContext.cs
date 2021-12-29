@@ -23,6 +23,7 @@ namespace DataAccess.Concrete.EntityFramework {
         public DbSet<Ram> Ram { get; set; }
         public DbSet<Storage> Storage { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
 
 
     }
