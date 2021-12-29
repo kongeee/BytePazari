@@ -28,7 +28,7 @@ namespace Business.BusinessAspects.Autofac {
                     return;
                 }
             }
-            throw new Exception("Error");
+            throw new Exception("Auth Error");
         }
     }
 }

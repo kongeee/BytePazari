@@ -39,8 +39,9 @@ namespace DataAccess.Concrete.EntityFramework {
         public IDataResult<User> Login(UserForLoginDto userForLoginDto) {
             var userToCheck = _userService.GetByMail(userForLoginDto.Email);
             if (userToCheck == null) {
-                return new ErrorDataResult<User>(Messages.Emsg_16);
+                return new ErrorDataResult<User>(Messages.Emsg_21);
             }
+            
 
             if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.Data.Password, userToCheck.Data.PasswordSalt)) {
                 return new ErrorDataResult<User>(Messages.Emsg_16);

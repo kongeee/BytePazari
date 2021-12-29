@@ -16,3 +16,5 @@ Business -> Microsoft.AspNetCore.Http.Abstractions v2.2.0
 Business -> Autofac.Extensions.DependencyInjection v7.2.0
 Business -> Microsoft.Extensions.DependencyInjection v6.0.0
 WebAPI -> Microsoft.AspNetCore.Authentication v3.1.22
+Core -> Microsoft.AspNetCore.Http.Abstractions v2.2.0
+Core -> Microsoft.Extensions.DependencyInjection v6.0.0
