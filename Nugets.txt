@@ -9,3 +9,10 @@ Core -> Autofac v6.3.0
 Core -> Autofac.Extras.DynamicProxy v6.0.0
 Core -> Autofac.Extensions.DependencyInjection v7.2.0
 Core -> Microsoft.AspNetCore.Http.Features v5.0.13
+Core -> Microsoft.IdentityModel.Tokens v6.15.0
+Core -> Microsoft.Extensions.Configuration v6.0.0
+Core -> System.IdentityModel.Tokens.Jwt v6.15.0
+Business -> Microsoft.AspNetCore.Http.Abstractions v2.2.0
+Business -> Autofac.Extensions.DependencyInjection v7.2.0
+Business -> Microsoft.Extensions.DependencyInjection v6.0.0
+WebAPI -> Microsoft.AspNetCore.Authentication v3.1.22

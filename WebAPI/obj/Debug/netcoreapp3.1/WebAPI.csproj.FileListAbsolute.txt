@@ -94,3 +94,4 @@ C:\Users\furka\Desktop\GitRepos\BytePazari\WebAPI\bin\Debug\netcoreapp3.1\Fluent
 C:\Users\furka\Desktop\GitRepos\BytePazari\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\furka\Desktop\GitRepos\BytePazari\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\furka\Desktop\GitRepos\BytePazari\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\furka\Desktop\GitRepos\BytePazari\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

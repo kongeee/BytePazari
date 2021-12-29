@@ -24,6 +24,8 @@ namespace DataAccess.Concrete.EntityFramework {
         public DbSet<Storage> Storage { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<UserOperationClaims> UserOperationClaims { get; set; }
 
 
     }

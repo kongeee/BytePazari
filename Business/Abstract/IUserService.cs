@@ -6,6 +6,11 @@ using System.Text;
 
 namespace Business.Abstract {
     public interface IUserService {
+
+        
+        IDataResult<User> GetById(int userId);
+        IDataResult<List<OperationClaim>> GetClaims(User user);
+        IDataResult<User> GetByMail(string email);
         IDataResult<List<User>> GetAll();
 
         IResult Add(User user);
