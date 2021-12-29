@@ -2,12 +2,14 @@
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 
@@ -15,6 +17,9 @@ using System.Text;
 namespace Business.Concrete {
     public class ProductManager : IProductService {
 
+        /*You can use other services to reach their data. But you cannot add any Dal except
+        productDal to the constructor. For ex. if we need number of brands, we have to inject
+        BrandService to the constructor*/
         IProductDal _productDal;
 
         public ProductManager(IProductDal productDal) {
@@ -50,6 +55,12 @@ namespace Business.Concrete {
 
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product) {
+            //You can add a new rule by separating with comma
+            IResult result = BusinessRules.Run(CheckIfProductNameUnique(product.Name) );
+            if (result != null) {
+                return result;
+            }
+
             _productDal.Add(product);
             return new SuccessResult(Messages.Smsg);
         }
@@ -60,6 +71,14 @@ namespace Business.Concrete {
         public IResult Delete(Product product) {
             _productDal.Delete(product);
             return new SuccessResult(Messages.Smsg);
+        }
+
+        private IResult CheckIfProductNameUnique(string productName) {
+            var result = _productDal.GetAll(p => p.Name == productName).Any();
+            if (result) {
+                return new ErrorResult(Messages.Emsg_13);
+            }
+            return new SuccessResult();
         }
     }
 }
