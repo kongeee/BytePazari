@@ -3,6 +3,8 @@ using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Aspects.Caching;
+using Core.Aspects.Performance;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -27,10 +29,13 @@ namespace Business.Concrete {
             _productDal = productDal;
         }
 
+        [CacheAspect]
         public IDataResult<Product> Get(int productId) {
             return new SuccessDataResult<Product>( _productDal.Get(p => p.ProductId == productId), Messages.Smsg);
         }
 
+        [CacheAspect]
+        [PerformanceAspect(5)]
         public IDataResult<List<Product>> GetAll() {
 
             
@@ -56,6 +61,7 @@ namespace Business.Concrete {
 
         [SecuredOperation("admin, product.add")]
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product) {
             //You can add a new rule by separating with comma
             IResult result = BusinessRules.Run(CheckIfProductNameUnique(product.Name) );
@@ -66,6 +72,7 @@ namespace Business.Concrete {
             _productDal.Add(product);
             return new SuccessResult(Messages.Smsg);
         }
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Update(Product product) {
             _productDal.Update(product);
             return new SuccessResult(Messages.Smsg);
