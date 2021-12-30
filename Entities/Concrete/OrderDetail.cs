@@ -8,7 +8,7 @@ namespace Entities.Concrete {
     public class OrderDetail : IEntity {
         [Key]
         public int DetailId { get; set; }
-        public int UserId { get; set; }
+        public int OrderId { get; set; }
         public int ProductId { get; set; }
     }
 }

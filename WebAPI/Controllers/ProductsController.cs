@@ -47,5 +47,43 @@ namespace WebAPI.Controllers {
             }
             return BadRequest(result);
         }
+        [HttpPost("update")]
+        public IActionResult Update(Product product) {
+            var result = _productService.Update(product);
+            if (result.Success) {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpPost("delete")]
+        public IActionResult Delete(Product product) {
+            var result = _productService.Delete(product);
+            if (result.Success) {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getallwithdetails")]
+        public IActionResult GetAllWithDetails() {
+            var result = _productService.GetProductDetails();
+            if (result.Success) {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getallwithdetailsbyid")]
+        public IActionResult GetAllWithDetailsById(int productId) {
+            var result = _productService.GetProductDetailsById(productId);
+            if (result.Success) {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+
+
     }
 }

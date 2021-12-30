@@ -35,7 +35,7 @@ namespace Business.Concrete {
         }
 
         [CacheAspect]
-        [PerformanceAspect(5)]
+        //[PerformanceAspect(5)]
         public IDataResult<List<Product>> GetAll() {
 
             

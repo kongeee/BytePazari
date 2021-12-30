@@ -11,6 +11,7 @@ namespace Business.Abstract {
         IResult Add(Address address);
         IResult Update(Address address);
         IResult Delete(Address addreess);
+        IDataResult<List<Address>> GetUserAddresses(int userId);
 
     }
 }

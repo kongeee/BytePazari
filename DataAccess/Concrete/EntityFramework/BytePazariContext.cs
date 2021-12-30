@@ -19,7 +19,7 @@ namespace DataAccess.Concrete.EntityFramework {
         public DbSet<Cpu> Cpu { get; set; }
         public DbSet<Gpu> Gpu { get; set; }
         public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<OrderDetail> Order_Details { get; set; }
         public DbSet<Ram> Ram { get; set; }
         public DbSet<Storage> Storage { get; set; }
         public DbSet<User> Users { get; set; }

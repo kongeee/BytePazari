@@ -35,6 +35,10 @@ namespace Business.Concrete {
             return new SuccessDataResult<Address> (_addressDal.Get(a => a.AddressId == addressId), Messages.Smsg);
         }
 
+        public IDataResult<List<Address>> GetUserAddresses(int userId) {
+            return new SuccessDataResult<List<Address>>(_addressDal.GetAll(a => a.UserId == userId), Messages.Smsg);
+        }
+
         public IDataResult<List<Address>> GetAll() {
             return new SuccessDataResult<List<Address>> (_addressDal.GetAll(), Messages.Smsg);
         }

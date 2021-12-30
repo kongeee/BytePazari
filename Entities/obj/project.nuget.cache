@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p82XdB5WNKJjswIjlZ8RgC8g03uLOv/E1QsFs4lELBbL794RHkGeUbBmRvHsq7PmYbl972tiWLJzQDW4olrSUg==",
+  "dgSpecHash": "f4m4vqUe2Rk7wGaU+2+I0hLp4KNkBhSFJOHLCK1ezh4D687tII69PnBMC9l87HT9nY49FXTUlsslqE5zIrCE7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\furka\\Desktop\\GitRepos\\BytePazari\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
