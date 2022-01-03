@@ -27,7 +27,7 @@ namespace DataAccess.Concrete.EntityFramework {
             }
         }
 
-        public List<CommentDetailDto> GetCommentsByProductId(int productId) {
+        public List<CommentDetailDto> GetCommentDetailsbyId(int id) {
             using (BytePazariContext context = new BytePazariContext()) {
                 var result = from c in context.Comments
                              join u in context.Users on c.UserId equals u.UserId
@@ -45,5 +45,7 @@ namespace DataAccess.Concrete.EntityFramework {
                 return result.ToList();
             }
         }
+
+       
     }
 }

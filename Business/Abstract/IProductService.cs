@@ -11,6 +11,7 @@ namespace Business.Abstract {
         IDataResult<List<Product>> GetAllByBrandId(int brandId);
         IDataResult<List<Product>> GetAllByPrice(int min, int max);
         IDataResult<Product> Get(int productId);
+        
 
         IDataResult<List<ProductDetailDto>> GetProductDetailsById(int productId);
         IDataResult<List<ProductDetailDto>> GetProductDetails();
@@ -18,5 +19,6 @@ namespace Business.Abstract {
         IResult Add(Product product);
         IResult Update(Product product);
         IResult Delete(Product product);
+
     }
 }

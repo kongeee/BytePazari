@@ -83,6 +83,15 @@ namespace WebAPI.Controllers {
             return BadRequest(result);
         }
 
+        [HttpGet("getallbybrandid")]
+        public IActionResult GetAllByBrandId(int brandId) {
+            var result = _productService.GetAllByBrandId(brandId);
+            if (result.Success) {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
 
 
     }
